@@ -4,7 +4,7 @@ import "fmt"
 
 func hammingDistance(x int, y int) int {
 
-	// The bitwise or will flag the changed bits as `1`.
+	// The “bitwise or” will flag the changed bits as `1`:
 	tmp := x ^ y
 
 	// Result
@@ -30,7 +30,7 @@ func hammingDistance(x int, y int) int {
 			dis++
 		}
 
-		// Shift the number until there’s nothing left ([1])
+		// Shift the number until there’s nothing left ([1]):
 		tmp >>= 1
 	}
 
