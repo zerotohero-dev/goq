@@ -13,10 +13,10 @@ func hammingDistance(x int, y int) int {
 	for {
 
 		// Is there a non-zero number to reduce? [1]
-		hasBitsLeft := tmp != 0
+		anyNonZeroBits := tmp != 0
 
 		// Everything processed; terminate the loop.
-		if !hasBitsLeft {
+		if !anyNonZeroBits {
 			break
 		}
 
