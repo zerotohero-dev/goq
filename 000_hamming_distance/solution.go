@@ -24,9 +24,9 @@ func hammingDistance(x int, y int) int {
 		// If the last bit is `1`, this operation will swallow the last bit.
 		// If the last bit is `0`, it will remain `0`.
 		tmp1 := (tmp >> 1) << 1
-		hasMatch := tmp1 != tmp
+		match := tmp1 != tmp
 
-		if hasMatch {
+		if match {
 			dis++
 		}
 
