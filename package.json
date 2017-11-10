@@ -1,0 +1,10 @@
+{
+  "name": "goq",
+  "version": "0.1.1",
+  "description": "GoQ: Go Questions",
+  "main": "index.js",
+  "repository": "git@github.com:v0lkan/goq.git",
+  "author": "Volkan Özçelik <volkan.ozcelik@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
