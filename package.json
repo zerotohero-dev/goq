@@ -1,6 +1,6 @@
 {
   "name": "goq",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "GoQ: Go Questions",
   "main": "index.js",
   "repository": "git@github.com:v0lkan/goq.git",
