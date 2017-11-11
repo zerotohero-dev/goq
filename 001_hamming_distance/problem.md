@@ -1,6 +1,6 @@
 ## Definitions
 
-The [Hamming distance](hamming) between two integers is the number of positions at which the corresponding bits are different.
+* The [Hamming distance](hamming) between two integers is the number of positions at which the corresponding bits are different.
 
 ## Question
 
@@ -8,7 +8,7 @@ Given two integers x and y, calculate the Hamming distance between them.
 
 ## Assumptions
 
-Both numbers are within the range `[0, 231)`.
+* Both numbers are within the range `[0, 231)`.
 
 ## Example
 
