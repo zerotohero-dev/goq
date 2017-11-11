@@ -75,7 +75,7 @@ import (
 //
 // Also, any arrangement other than `case 2` will result in at least two segments to overlap [2].
 //
-// So from [1] and [2] it follows that the only way to minimize the sum of the total length of
+// So from [1] and [2], it follows that the only way to minimize the sum of the total length of
 // the line segments is to arrange them as in `case 2`.
 //
 // Minimizing the `TotalLength` means maximizing `sum(min({ai,bi})) : i from 1 to n` (from [0]).
