@@ -56,13 +56,13 @@ import (
 //
 // Why?
 //
-// Assume we have at least two overlapping segments as in case 1.
+// Assume we have at least two overlapping segments as in (case 1):
 //
 //          |-----------|
 //       |-----|
 //
 // If you swap the overlapping ends of those segments so that they don’t overlap anymore,
-// you will decrease the lengths of *both* of those segments and hence decreasing `TotalLength`.
+// you will decrease the lengths of *both* of those segments and hence decreasing `TotalLength`:
 //
 //             |--------|
 //       |--|
