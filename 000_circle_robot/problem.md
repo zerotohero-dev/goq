@@ -18,7 +18,7 @@ Given an input sequence string, write a function that returns a boolean; `true` 
 * Assume there is a robot at the origin of an Cartesian coordinate plane.
 * You can assume that the robot skips any character that it does not understand.
 * A “*circular movement*” can be defined by any sequence of characters that takes the robot to its original starting position.
-    * “*Circular*”ly moving here does not create a geometric circle; it only means that the robot came back to its starting position at the end of the sequence.
+    * “*Circular*”ly moving the robot does not necessarily create a geometric circle; it only means that the robot came back to its starting position at the end of the sequence.
 
 ## Example
 
