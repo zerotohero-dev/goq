@@ -25,7 +25,7 @@ import (
 //    a1 b1 c1 b2 a2 d1 c2 e1 e2 d2
 //
 // Well that looks pretty random. Since we are seeking an extremum (i.e. maximum, or minimum)
-// to our solution, we are looking for a more orderly orientation.
+// to our solution, we are (most probably) looking for a more orderly orientation.
 //
 // So let’s reorder the segments:
 //
