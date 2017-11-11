@@ -9,7 +9,7 @@ A robot is programmed to take an input string and do a sequence of movements by 
 
 The valid characters that the robot understands are “U”: Up, “D”: Down, “L”: Left, and “R”: Right.
 
-> For example given a sequence “UDL” the robot moves 1 unit up, 1 unit down, and 1 unit left.
+> For example given the sequence “UDL” the robot sequentially moves 1 unit up, 1 unit down, and 1 unit left.
 
 Given an input sequence string, write a function that returns a boolean; `true` if the sequence of movement is circular, and `false` otherwise.
 
@@ -18,7 +18,7 @@ Given an input sequence string, write a function that returns a boolean; `true` 
 * Assume there is a robot at the origin of an Cartesian coordinate plane.
 * You can assume that the robot skips any character that it does not understand.
 * A “*circular movement*” can be defined by any sequence of characters that takes the robot to its original starting position.
-    * “*Circular*”ly moving here does not create a geometric circle; it only means that the robot came back to its starting position at the end of the sequence.
+    * “*Circular*”ly moving the robot does not necessarily create a geometric circle; it only means that the robot came back to its starting position at the end of the sequence.
 
 ## Example
 
