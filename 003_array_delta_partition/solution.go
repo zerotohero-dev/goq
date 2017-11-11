@@ -45,7 +45,7 @@ import (
 // Well, since we are reordering line segments, it might be related to the length of those
 // segments.
 //
-// Lets sum the lengths of them
+// Lets sum the lengths of them:
 //
 // TotalLength = (a2-a1) + (b2-b1) + (c2-c1) + (d2-d1) + (e2-e1)
 //             = (a2+b2+c2+d2+e2) - (a1+b1+c1+d1+e1)
