@@ -9,7 +9,7 @@ A robot is programmed to take an input string and do a sequence of movements by 
 
 The valid characters that the robot understands are “U”: Up, “D”: Down, “L”: Left, and “R”: Right.
 
-> For example given a sequence “UDL” the robot moves 1 unit up, 1 unit down, and 1 unit left.
+> For example given the sequence “UDL” the robot sequentially moves 1 unit up, 1 unit down, and 1 unit left.
 
 Given an input sequence string, write a function that returns a boolean; `true` if the sequence of movement is circular, and `false` otherwise.
 
