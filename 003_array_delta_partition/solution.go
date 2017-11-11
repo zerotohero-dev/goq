@@ -68,7 +68,7 @@ import (
 //       |--|
 //
 // Therefore, if there are overlapping segments, then `TotalLength` is NOT minimized
-// (since the swap makes the sum less).
+// (since the swap makes the sum less already).
 //
 // Therefore to minimize `TotalLength`, it is necessary (but maybe not sufficient) that
 // no segments shall overlap. [1]
