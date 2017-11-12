@@ -59,7 +59,7 @@ import (
 //
 // (<aside>
 //  Tangentially-related: See also “interval scheduling” (https://en.wikipedia.org/wiki/Interval_scheduling)
-//  that has some nice challenges about things like how to merge overlapping intervals
+//  that has some nice challenges about things like “how to merge overlapping intervals”.
 // </aside>) 
 //
 // So why does making the intervals non-overlap minimizes their sum? Let’s explore:
