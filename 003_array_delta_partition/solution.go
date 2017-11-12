@@ -54,6 +54,14 @@ import (
 // That, by association, means that we are asked to *minimize* the total length of
 // the line segments. [0]
 //
+// So how do we minimize the total length of those line segment?
+// By making sure that they do **not** overlap.
+//
+// (<aside>
+//  Tangentially-related: See also “interval scheduling” (https://en.wikipedia.org/wiki/Interval_scheduling)
+//  that has some nice challenges about things like how to merge overlapping intervals
+// </aside>) 
+//
 // Why?
 //
 // Assume we have at least two overlapping segments as in `case 1`:
