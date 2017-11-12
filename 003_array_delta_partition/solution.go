@@ -64,7 +64,7 @@ import (
 //
 // So why does making the intervals non-overlap minimizes their sum? Let’s explore:
 //
-// To begin with, assume we have at least two overlapping segments (similar to `case 1`):
+// To begin with, assume we have at least two overlapping segments (similar to `case 1` above):
 //
 //          |-----------|
 //       |-----|
