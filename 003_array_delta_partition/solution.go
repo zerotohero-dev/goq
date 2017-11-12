@@ -62,33 +62,34 @@ import (
 //  that has some nice challenges about things like how to merge overlapping intervals
 // </aside>) 
 //
-// Why?
+// So why does making the intervals non-overlap minimizes their sum? Let’s explore:
 //
-// Assume we have at least two overlapping segments as in `case 1`:
+// To begin with, assume we have at least two overlapping segments (similar to `case 1`):
 //
 //          |-----------|
 //       |-----|
 //
 // If you swap the overlapping ends of those segments so that they don’t overlap anymore,
-// you will decrease the lengths of *both* of those segments and hence decreasing `TotalLength`:
+// you will decrease the lengths of *both* of those segments and hence you’ll decrease the `TotalLength`:
 //
 //             |--------|
 //       |--|
 //
-// Therefore, if there are overlapping segments, then `TotalLength` is NOT minimized
-// (since the swap makes the sum less already).
+// Therefore, if there are *any* overlapping segments, then `TotalLength` is NOT minimized
+// (since even a single swap enough to decrease the sum already).
 //
-// Therefore to minimize `TotalLength`, it is necessary (but maybe not sufficient) that
-// no segments shall overlap. [1]
+// Therefore to minimize `TotalLength`, it is necessary (but maybe not sufficient) that no segments 
+// shall overlap. [1]
 //
-// Also, any arrangement other than `case 2` will result in at least two segments to overlap. [2]
+// Also note that any arrangement other than `case 2` will result in at least two segments to overlap. [2]
 //
-// So from [1] and [2], it follows that the only way to minimize the sum of the total length of
-// the line segments is to arrange them as in `case 2`.
+// So from [1] and [2], it follows that the only way to minimize the sum of the total length of the 
+// line segments is to arrange them as in `case 2`. [3]
 //
-// Minimizing the `TotalLength` means maximizing `sum(min({ai,bi})) : i from 1 to n` (from [0]).
+// Also from [0]:
+// Minimizing the `TotalLength` is equivalent to maximizing `sum(min({ai,bi})) : i from 1 to n`.
 //
-// Therefore, solving this problem is equivalent to
+// Therefore, from [0] and [3], solving this problem is reduces to:
 //
 // * Sorting the array in increasing order.
 // * Selecting the odd-indexed items.
