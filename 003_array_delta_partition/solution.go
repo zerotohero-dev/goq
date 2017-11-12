@@ -50,13 +50,13 @@ import (
 // TotalLength = (a2-a1) + (b2-b1) + (c2-c1) + (d2-d1) + (e2-e1)
 //             = (a2+b2+c2+d2+e2) - (a1+b1+c1+d1+e1)
 //
-// We are asked to maximize the sum(b1 to bn) (the second part of the equation)
+// We are asked to maximize `a1+b1+c1+d1+e1` (the second part of the equation)
 // That, by association, means that we are asked to *minimize* the total length of
 // the line segments. [0]
 //
 // Why?
 //
-// Assume we have at least two overlapping segments as in (case 1):
+// Assume we have at least two overlapping segments as in `case 1`:
 //
 //          |-----------|
 //       |-----|
@@ -73,7 +73,7 @@ import (
 // Therefore to minimize `TotalLength`, it is necessary (but maybe not sufficient) that
 // no segments shall overlap. [1]
 //
-// Also, any arrangement other than `case 2` will result in at least two segments to overlap [2].
+// Also, any arrangement other than `case 2` will result in at least two segments to overlap. [2]
 //
 // So from [1] and [2], it follows that the only way to minimize the sum of the total length of
 // the line segments is to arrange them as in `case 2`.
