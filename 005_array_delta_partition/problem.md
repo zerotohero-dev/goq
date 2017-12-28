@@ -11,9 +11,10 @@ Assume you arbitrarily partition this array in to `n` tuples of `{ai,bi}`.
 
 Let the sum `S` be `sum(min({ai,bi})) : i from 1 to n`.
 
-Write a function that takes this array `A` as an input argument, then computes and returns the maximum of such sums.
+Write a function that takes this array `A` as an input argument, then computes
+and returns the maximum of such sums.
 
-Or more formally, find… 
+Or more formally, find…
 
 ```text
 max(
@@ -32,16 +33,16 @@ max(
 ## Example
 
 ```text
-given 
-A: [1,5,2,11] 
+given
+A: [1,5,2,11]
 
-The optimum tuple (of all possible tuples) is: 
-T: {11,5}, {1,2} 
+The optimum tuple (of all possible tuples) is:
+T: {11,5}, {1,2}
 
 because
 min(11, 5) + min(1, 2) = 7
 
-where, 7 is the maximum of all possible of such sums.  
+where, 7 is the maximum of all possible of such sums.
 ```
 
 [Array]: https://en.wikipedia.org/wiki/Array "Array"

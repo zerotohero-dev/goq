@@ -1,6 +1,7 @@
 ## Definitions
 
-* The [Hamming distance](hamming) between two integers is the number of positions at which the corresponding bits are different.
+* The [Hamming distance](hamming) between two integers is the number
+  of positions at which the corresponding bits are different.
 
 ## Question
 
