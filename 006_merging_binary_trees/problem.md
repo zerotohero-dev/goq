@@ -37,7 +37,7 @@ Second Tree
      \   \
       4   7
 Merge Result
-      3
+      2
      / \
     9   6
    / \   \
